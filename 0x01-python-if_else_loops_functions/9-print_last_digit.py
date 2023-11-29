@@ -3,4 +3,4 @@
 
 def print_last_digit(numberz):
     print(abs(numberz) % 10, end="")
-    return (abs(numberz) % 10)i
+    return (abs(numberz) % 10)
