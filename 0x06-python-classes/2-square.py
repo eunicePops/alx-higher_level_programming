@@ -6,11 +6,10 @@ class Square:
     """Represents a square."""
 
     def __init__(self, size=0):
-        """Initialize a new Square, with private instance attribute __size"""
-        
-       """
-       Args:
-            size (int): The constructor __init__ has an optional argument size
+        """Initializes a new Square.
+
+        Args:
+            size (int): The size of the new square.
         """
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
