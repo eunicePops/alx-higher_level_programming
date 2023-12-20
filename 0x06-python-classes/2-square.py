@@ -10,8 +10,7 @@ class Square:
     
 
         Args:
-            size (int): The constructor __init__ has an optional argument 
-            - size size of the new square.
+            size (int): The constructor __init__ has an optional argument size
         """
         if not isinstance(size, int):
             raise TypeError("size must be an integer")
